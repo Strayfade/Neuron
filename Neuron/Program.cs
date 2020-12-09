@@ -30,9 +30,23 @@ namespace Neuron
             );
             container.SelectedTabIndex = 0;
             TitleBarTabsApplicationContext applicationContext = new TitleBarTabsApplicationContext();
-            //applicationContext.Start(container);
             Form1 main = new Form1();
-            Application.Run(main);
+
+            // --------------------------------------------------
+
+            // IMPORTANT: Enable Experimental Tabs
+            bool EnableTabs = false;
+
+            // --------------------------------------------------
+
+            if (EnableTabs)
+            {
+                applicationContext.Start(container);
+            }
+            else
+            {
+                Application.Run(main);
+            }
         }
     }
 }
