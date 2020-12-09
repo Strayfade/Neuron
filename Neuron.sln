@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neuron", "Neuron\Neuron.csproj", "{B5C5D17F-FACB-408D-8FB4-AF9AF3B0FC08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5C5D17F-FACB-408D-8FB4-AF9AF3B0FC08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5C5D17F-FACB-408D-8FB4-AF9AF3B0FC08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5C5D17F-FACB-408D-8FB4-AF9AF3B0FC08}.Debug|x64.ActiveCfg = Debug|x64
+		{B5C5D17F-FACB-408D-8FB4-AF9AF3B0FC08}.Debug|x64.Build.0 = Debug|x64
+		{B5C5D17F-FACB-408D-8FB4-AF9AF3B0FC08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5C5D17F-FACB-408D-8FB4-AF9AF3B0FC08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5C5D17F-FACB-408D-8FB4-AF9AF3B0FC08}.Release|x64.ActiveCfg = Release|x64
+		{B5C5D17F-FACB-408D-8FB4-AF9AF3B0FC08}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1667B36-6695-4039-A057-C5224FC0DDDD}
+	EndGlobalSection
+EndGlobal
