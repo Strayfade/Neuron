@@ -17,4 +17,5 @@
 ### Credits:
 
 Siticone UI - [**Siticone**](https://siticoneframework.com)
+
 EasyTabs - [**lstratman**](https://github.com/lstratman/EasyTabs)
