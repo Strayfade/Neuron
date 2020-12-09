@@ -37,7 +37,19 @@ namespace Neuron
             // IMPORTANT: Enable Experimental Tabs
             bool EnableTabs = false;
 
+            // Enable Experimental Proxies
+            bool UseProxies = true;
+
             // --------------------------------------------------
+
+            if (UseProxies)
+            {
+
+            }
+            else
+            {
+
+            }
 
             if (EnableTabs)
             {
