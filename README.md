@@ -8,7 +8,7 @@
 ![](https://img.shields.io/github/license/Strayfade/Neuron?style=flat-square)
 
 # Usage:
- - Download latest release and extract it to any folder.
+ - Download latest release and extract it to any folder. Make sure you download the right one for your architecture!
  - Create a shortcut to `Neuron.exe` and place it anywhere.
  - Have Fun!
  
