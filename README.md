@@ -1,6 +1,65 @@
-# Neuron
+
+<html>
+  <head>
+    <title>The title of the document</title>
+    <style>
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center
+      }
+      img {
+        max-width: 100%
+      }
+      .image {
+        flex-basis: 70%;
+        order: 2;
+      }
+      .text {
+        color: #FFFFFF;
+        padding-left: 20px;
+        font: italic 10px "Segoe UI", serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image">
+        <img src="./NeuronWebdriver/Resources/Icon.png">
+      </div>
+      <div class="text">
+        <h1>Neuron Rewrite</h1>
+      </div>
+    </div>
+  </body>
+</html>
 
 **Neuron**: Extremely powerful, super-fast, bloat-free Browser coded in C#
+<style>
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+</style>
+<div id="cf">
+  <img class="bottom" src="./NeuronWebdriver/Resources/NRW_BannerGS.png" />
+  <img class="top" src="./NeuronWebdriver/Resources/NRW_BannerGS1.png" />
+</div>
 
 ![](https://img.shields.io/github/v/release/Strayfade/Neuron?style=flat-square)
 ![](https://img.shields.io/github/commit-activity/m/Strayfade/Neuron?style=flat-square)
