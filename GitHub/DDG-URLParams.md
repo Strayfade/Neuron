@@ -2,8 +2,6 @@
 
 ### Separate all Parameters using the `&` symbol.
  - Example: `kf=1&kh=1`
-
-#### **NOTE:** URL Parameters will override Theme/Font options integrated in Neuron.
 # 
 
 Safe Search: 	`kp = 1 for On; kp = -1 for Moderate; kp = -2 for Off.`
