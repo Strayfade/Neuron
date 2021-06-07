@@ -41,6 +41,7 @@ namespace NeuronWebdriver
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.NBrowser = new CefSharp.WinForms.ChromiumWebBrowser();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.ErrorURLBox = new System.Windows.Forms.Label();
             this.ErrorCodeBox = new System.Windows.Forms.Label();
@@ -53,13 +54,15 @@ namespace NeuronWebdriver
             this.siticonePanel9 = new Siticone.UI.WinForms.SiticonePanel();
             this.siticoneLabel14 = new Siticone.UI.WinForms.SiticoneLabel();
             this.siticonePanel11 = new Siticone.UI.WinForms.SiticonePanel();
+            this.siticoneRoundedButton6 = new Siticone.UI.WinForms.SiticoneRoundedButton();
             this.siticoneRoundedButton5 = new Siticone.UI.WinForms.SiticoneRoundedButton();
+            this.siticoneLabel15 = new Siticone.UI.WinForms.SiticoneLabel();
+            this.siticoneOSToggleSwith9 = new Siticone.UI.WinForms.SiticoneOSToggleSwith();
             this.linkLabel4 = new System.Windows.Forms.LinkLabel();
             this.siticoneLabel17 = new Siticone.UI.WinForms.SiticoneLabel();
             this.siticoneRoundedButton4 = new Siticone.UI.WinForms.SiticoneRoundedButton();
-            this.siticoneLabel15 = new Siticone.UI.WinForms.SiticoneLabel();
-            this.siticoneOSToggleSwith9 = new Siticone.UI.WinForms.SiticoneOSToggleSwith();
             this.siticonePanel8 = new Siticone.UI.WinForms.SiticonePanel();
+            this.siticoneLabel16 = new Siticone.UI.WinForms.SiticoneLabel();
             this.siticoneLabel13 = new Siticone.UI.WinForms.SiticoneLabel();
             this.siticonePanel7 = new Siticone.UI.WinForms.SiticonePanel();
             this.siticoneLabel12 = new Siticone.UI.WinForms.SiticoneLabel();
@@ -89,6 +92,8 @@ namespace NeuronWebdriver
             this.siticoneRoundedButton1 = new Siticone.UI.WinForms.SiticoneRoundedButton();
             this.siticoneRoundedButton2 = new Siticone.UI.WinForms.SiticoneRoundedButton();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.siticoneRoundedButton7 = new Siticone.UI.WinForms.SiticoneRoundedButton();
             this.siticoneLabel2 = new Siticone.UI.WinForms.SiticoneLabel();
             this.siticoneRoundedButton3 = new Siticone.UI.WinForms.SiticoneRoundedButton();
             this.siticoneLabel4 = new Siticone.UI.WinForms.SiticoneLabel();
@@ -96,7 +101,7 @@ namespace NeuronWebdriver
             this.siticoneLabel1 = new Siticone.UI.WinForms.SiticoneLabel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.Timer = new System.Windows.Forms.Timer(this.components);
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.linkLabel5 = new System.Windows.Forms.LinkLabel();
             this.siticoneGradientPanel1.SuspendLayout();
             this.TopGradientPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -104,6 +109,7 @@ namespace NeuronWebdriver
             ((System.ComponentModel.ISupportInitialize)(this.MenuButton)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.siticoneCustomGradientPanel1.SuspendLayout();
@@ -119,8 +125,8 @@ namespace NeuronWebdriver
             this.siticonePanel5.SuspendLayout();
             this.siticonePanel4.SuspendLayout();
             this.tabPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // siticoneRoundedTextBox1
@@ -145,11 +151,11 @@ namespace NeuronWebdriver
             this.siticoneRoundedTextBox1.Location = new System.Drawing.Point(70, 8);
             this.siticoneRoundedTextBox1.Name = "siticoneRoundedTextBox1";
             this.siticoneRoundedTextBox1.PasswordChar = '\0';
-            this.siticoneRoundedTextBox1.PlaceholderForeColor = System.Drawing.Color.Black;
-            this.siticoneRoundedTextBox1.PlaceholderText = "";
+            this.siticoneRoundedTextBox1.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.siticoneRoundedTextBox1.PlaceholderText = "Enter address or Search with DuckDuckGo";
             this.siticoneRoundedTextBox1.SelectedText = "";
             this.siticoneRoundedTextBox1.ShadowDecoration.Parent = this.siticoneRoundedTextBox1;
-            this.siticoneRoundedTextBox1.Size = new System.Drawing.Size(1086, 28);
+            this.siticoneRoundedTextBox1.Size = new System.Drawing.Size(1001, 28);
             this.siticoneRoundedTextBox1.TabIndex = 0;
             this.siticoneRoundedTextBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.siticoneRoundedTextBox1_KeyDown);
             // 
@@ -164,7 +170,7 @@ namespace NeuronWebdriver
             this.siticoneGradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.siticoneGradientPanel1.Name = "siticoneGradientPanel1";
             this.siticoneGradientPanel1.ShadowDecoration.Parent = this.siticoneGradientPanel1;
-            this.siticoneGradientPanel1.Size = new System.Drawing.Size(1246, 560);
+            this.siticoneGradientPanel1.Size = new System.Drawing.Size(1161, 562);
             this.siticoneGradientPanel1.TabIndex = 1;
             this.siticoneGradientPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.siticoneGradientPanel1_Paint);
             // 
@@ -182,7 +188,7 @@ namespace NeuronWebdriver
             this.TopGradientPanel.Location = new System.Drawing.Point(0, 0);
             this.TopGradientPanel.Name = "TopGradientPanel";
             this.TopGradientPanel.ShadowDecoration.Parent = this.TopGradientPanel;
-            this.TopGradientPanel.Size = new System.Drawing.Size(1250, 10);
+            this.TopGradientPanel.Size = new System.Drawing.Size(1165, 15);
             this.TopGradientPanel.TabIndex = 3;
             this.TopGradientPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.TopGradientPanel_Paint);
             // 
@@ -193,12 +199,13 @@ namespace NeuronWebdriver
             this.MSLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.MSLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MSLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.MSLabel.Location = new System.Drawing.Point(1162, 14);
+            this.MSLabel.Location = new System.Drawing.Point(1077, 14);
             this.MSLabel.Name = "MSLabel";
             this.MSLabel.Size = new System.Drawing.Size(43, 16);
             this.MSLabel.TabIndex = 5;
             this.MSLabel.Text = "99 ms";
             this.MSLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.MSLabel.Click += new System.EventHandler(this.MSLabel_Click);
             // 
             // pictureBox2
             // 
@@ -229,7 +236,7 @@ namespace NeuronWebdriver
             this.MenuButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.MenuButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.MenuButton.Image = global::NeuronWebdriver.Properties.Resources.Menu1;
-            this.MenuButton.Location = new System.Drawing.Point(1210, 11);
+            this.MenuButton.Location = new System.Drawing.Point(1125, 11);
             this.MenuButton.Name = "MenuButton";
             this.MenuButton.Size = new System.Drawing.Size(28, 22);
             this.MenuButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -249,9 +256,8 @@ namespace NeuronWebdriver
             this.tabControl1.Location = new System.Drawing.Point(-9, 21);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1264, 548);
+            this.tabControl1.Size = new System.Drawing.Size(1179, 550);
             this.tabControl1.TabIndex = 0;
-            this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
             // 
             // tabPage1
             // 
@@ -260,7 +266,7 @@ namespace NeuronWebdriver
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1256, 522);
+            this.tabPage1.Size = new System.Drawing.Size(1171, 524);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -271,11 +277,25 @@ namespace NeuronWebdriver
             this.NBrowser.Dock = System.Windows.Forms.DockStyle.Fill;
             this.NBrowser.Location = new System.Drawing.Point(3, 3);
             this.NBrowser.Name = "NBrowser";
-            this.NBrowser.Size = new System.Drawing.Size(1250, 516);
+            this.NBrowser.Size = new System.Drawing.Size(1165, 518);
             this.NBrowser.TabIndex = 0;
             this.NBrowser.LoadError += new System.EventHandler<CefSharp.LoadErrorEventArgs>(this.NBrowser_LoadError);
             this.NBrowser.FrameLoadStart += new System.EventHandler<CefSharp.FrameLoadStartEventArgs>(this.NBrowser_FrameLoadStart);
             this.NBrowser.FrameLoadEnd += new System.EventHandler<CefSharp.FrameLoadEndEventArgs>(this.NBrowser_FrameLoadEnd);
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox5.BackColor = System.Drawing.Color.Black;
+            this.pictureBox5.Image = global::NeuronWebdriver.Properties.Resources.NRW_BannerGS;
+            this.pictureBox5.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(1177, 524);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 1;
+            this.pictureBox5.TabStop = false;
             // 
             // tabPage2
             // 
@@ -286,7 +306,7 @@ namespace NeuronWebdriver
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1256, 522);
+            this.tabPage2.Size = new System.Drawing.Size(1171, 524);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -297,9 +317,8 @@ namespace NeuronWebdriver
             this.ErrorURLBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ErrorURLBox.Location = new System.Drawing.Point(31, 78);
             this.ErrorURLBox.Name = "ErrorURLBox";
-            this.ErrorURLBox.Size = new System.Drawing.Size(89, 18);
+            this.ErrorURLBox.Size = new System.Drawing.Size(0, 18);
             this.ErrorURLBox.TabIndex = 3;
-            this.ErrorURLBox.Text = "Failed URL: ";
             // 
             // ErrorCodeBox
             // 
@@ -307,9 +326,8 @@ namespace NeuronWebdriver
             this.ErrorCodeBox.Font = new System.Drawing.Font("Franklin Gothic Medium", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ErrorCodeBox.Location = new System.Drawing.Point(30, 48);
             this.ErrorCodeBox.Name = "ErrorCodeBox";
-            this.ErrorCodeBox.Size = new System.Drawing.Size(85, 20);
+            this.ErrorCodeBox.Size = new System.Drawing.Size(0, 20);
             this.ErrorCodeBox.TabIndex = 2;
-            this.ErrorCodeBox.Text = "Error Code: ";
             // 
             // ErrorTitle
             // 
@@ -317,27 +335,25 @@ namespace NeuronWebdriver
             this.ErrorTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ErrorTitle.Location = new System.Drawing.Point(30, 24);
             this.ErrorTitle.Name = "ErrorTitle";
-            this.ErrorTitle.Size = new System.Drawing.Size(124, 24);
+            this.ErrorTitle.Size = new System.Drawing.Size(0, 24);
             this.ErrorTitle.TabIndex = 1;
-            this.ErrorTitle.Text = "Error Handler";
             // 
             // ErrorHandlerLabel
             // 
             this.ErrorHandlerLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.ErrorHandlerLabel.AutoSize = true;
             this.ErrorHandlerLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ErrorHandlerLabel.Location = new System.Drawing.Point(759, 378);
+            this.ErrorHandlerLabel.Location = new System.Drawing.Point(853, 380);
             this.ErrorHandlerLabel.Name = "ErrorHandlerLabel";
-            this.ErrorHandlerLabel.Size = new System.Drawing.Size(88, 16);
+            this.ErrorHandlerLabel.Size = new System.Drawing.Size(0, 16);
             this.ErrorHandlerLabel.TabIndex = 0;
-            this.ErrorHandlerLabel.Text = "Error Handler";
             // 
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.siticoneCustomGradientPanel1);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(1256, 522);
+            this.tabPage3.Size = new System.Drawing.Size(1171, 524);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "tabPage3";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -353,7 +369,7 @@ namespace NeuronWebdriver
             this.siticoneCustomGradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.siticoneCustomGradientPanel1.Name = "siticoneCustomGradientPanel1";
             this.siticoneCustomGradientPanel1.ShadowDecoration.Parent = this.siticoneCustomGradientPanel1;
-            this.siticoneCustomGradientPanel1.Size = new System.Drawing.Size(1256, 522);
+            this.siticoneCustomGradientPanel1.Size = new System.Drawing.Size(1171, 524);
             this.siticoneCustomGradientPanel1.TabIndex = 0;
             // 
             // siticonePanel1
@@ -370,7 +386,7 @@ namespace NeuronWebdriver
             this.siticonePanel1.Location = new System.Drawing.Point(11, -1);
             this.siticonePanel1.Name = "siticonePanel1";
             this.siticonePanel1.ShadowDecoration.Parent = this.siticonePanel1;
-            this.siticonePanel1.Size = new System.Drawing.Size(1235, 511);
+            this.siticonePanel1.Size = new System.Drawing.Size(1148, 513);
             this.siticonePanel1.TabIndex = 1;
             // 
             // pictureBox4
@@ -379,7 +395,7 @@ namespace NeuronWebdriver
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.BackgroundImage = global::NeuronWebdriver.Properties.Resources.Icon;
             this.pictureBox4.Image = global::NeuronWebdriver.Properties.Resources.Icon;
-            this.pictureBox4.Location = new System.Drawing.Point(1171, 447);
+            this.pictureBox4.Location = new System.Drawing.Point(1074, 441);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(60, 60);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -389,14 +405,14 @@ namespace NeuronWebdriver
             // siticonePanel9
             // 
             this.siticonePanel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.siticonePanel9.BorderColor = System.Drawing.Color.Black;
+            this.siticonePanel9.BorderThickness = 2;
             this.siticonePanel9.Controls.Add(this.siticoneLabel14);
             this.siticonePanel9.Controls.Add(this.siticonePanel11);
-            this.siticonePanel9.Controls.Add(this.siticoneLabel15);
-            this.siticonePanel9.Controls.Add(this.siticoneOSToggleSwith9);
-            this.siticonePanel9.Location = new System.Drawing.Point(590, 11);
+            this.siticonePanel9.Location = new System.Drawing.Point(599, 19);
             this.siticonePanel9.Name = "siticonePanel9";
             this.siticonePanel9.ShadowDecoration.Parent = this.siticonePanel9;
-            this.siticonePanel9.Size = new System.Drawing.Size(426, 290);
+            this.siticonePanel9.Size = new System.Drawing.Size(426, 322);
             this.siticonePanel9.TabIndex = 18;
             // 
             // siticoneLabel14
@@ -404,7 +420,7 @@ namespace NeuronWebdriver
             this.siticoneLabel14.BackColor = System.Drawing.Color.Transparent;
             this.siticoneLabel14.Font = new System.Drawing.Font("Bahnschrift SemiLight SemiConde", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneLabel14.ForeColor = System.Drawing.Color.White;
-            this.siticoneLabel14.Location = new System.Drawing.Point(6, 5);
+            this.siticoneLabel14.Location = new System.Drawing.Point(17, 6);
             this.siticoneLabel14.Name = "siticoneLabel14";
             this.siticoneLabel14.Size = new System.Drawing.Size(129, 27);
             this.siticoneLabel14.TabIndex = 12;
@@ -413,15 +429,39 @@ namespace NeuronWebdriver
             // siticonePanel11
             // 
             this.siticonePanel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(5)))), ((int)(((byte)(5)))));
+            this.siticonePanel11.Controls.Add(this.linkLabel5);
+            this.siticonePanel11.Controls.Add(this.siticoneRoundedButton6);
             this.siticonePanel11.Controls.Add(this.siticoneRoundedButton5);
+            this.siticonePanel11.Controls.Add(this.siticoneLabel15);
+            this.siticonePanel11.Controls.Add(this.siticoneOSToggleSwith9);
             this.siticonePanel11.Controls.Add(this.linkLabel4);
             this.siticonePanel11.Controls.Add(this.siticoneLabel17);
             this.siticonePanel11.Controls.Add(this.siticoneRoundedButton4);
             this.siticonePanel11.Location = new System.Drawing.Point(16, 38);
             this.siticonePanel11.Name = "siticonePanel11";
             this.siticonePanel11.ShadowDecoration.Parent = this.siticonePanel11;
-            this.siticonePanel11.Size = new System.Drawing.Size(390, 244);
+            this.siticonePanel11.Size = new System.Drawing.Size(390, 272);
             this.siticonePanel11.TabIndex = 12;
+            // 
+            // siticoneRoundedButton6
+            // 
+            this.siticoneRoundedButton6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.siticoneRoundedButton6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(5)))), ((int)(((byte)(5)))));
+            this.siticoneRoundedButton6.BorderColor = System.Drawing.Color.DimGray;
+            this.siticoneRoundedButton6.BorderThickness = 1;
+            this.siticoneRoundedButton6.CheckedState.Parent = this.siticoneRoundedButton6;
+            this.siticoneRoundedButton6.CustomImages.Parent = this.siticoneRoundedButton6;
+            this.siticoneRoundedButton6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.siticoneRoundedButton6.Font = new System.Drawing.Font("Bahnschrift Light SemiCondensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneRoundedButton6.ForeColor = System.Drawing.Color.White;
+            this.siticoneRoundedButton6.HoveredState.Parent = this.siticoneRoundedButton6;
+            this.siticoneRoundedButton6.Location = new System.Drawing.Point(223, 11);
+            this.siticoneRoundedButton6.Name = "siticoneRoundedButton6";
+            this.siticoneRoundedButton6.ShadowDecoration.Parent = this.siticoneRoundedButton6;
+            this.siticoneRoundedButton6.Size = new System.Drawing.Size(150, 33);
+            this.siticoneRoundedButton6.TabIndex = 24;
+            this.siticoneRoundedButton6.Text = "Clear Browsing History";
+            this.siticoneRoundedButton6.Click += new System.EventHandler(this.siticoneRoundedButton6_Click);
             // 
             // siticoneRoundedButton5
             // 
@@ -435,19 +475,41 @@ namespace NeuronWebdriver
             this.siticoneRoundedButton5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.siticoneRoundedButton5.ForeColor = System.Drawing.Color.White;
             this.siticoneRoundedButton5.HoveredState.Parent = this.siticoneRoundedButton5;
-            this.siticoneRoundedButton5.Location = new System.Drawing.Point(15, 33);
+            this.siticoneRoundedButton5.Location = new System.Drawing.Point(21, 151);
             this.siticoneRoundedButton5.Name = "siticoneRoundedButton5";
             this.siticoneRoundedButton5.ShadowDecoration.Parent = this.siticoneRoundedButton5;
-            this.siticoneRoundedButton5.Size = new System.Drawing.Size(278, 36);
+            this.siticoneRoundedButton5.Size = new System.Drawing.Size(277, 36);
             this.siticoneRoundedButton5.TabIndex = 23;
             this.siticoneRoundedButton5.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.siticoneRoundedButton5.Click += new System.EventHandler(this.siticoneRoundedButton5_Click);
+            // 
+            // siticoneLabel15
+            // 
+            this.siticoneLabel15.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneLabel15.Font = new System.Drawing.Font("Bahnschrift Light SemiCondensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneLabel15.ForeColor = System.Drawing.Color.White;
+            this.siticoneLabel15.Location = new System.Drawing.Point(18, 15);
+            this.siticoneLabel15.Name = "siticoneLabel15";
+            this.siticoneLabel15.Size = new System.Drawing.Size(146, 21);
+            this.siticoneLabel15.TabIndex = 6;
+            this.siticoneLabel15.Text = "Save Browsing History";
+            // 
+            // siticoneOSToggleSwith9
+            // 
+            this.siticoneOSToggleSwith9.CheckedFillColor = System.Drawing.Color.Lime;
+            this.siticoneOSToggleSwith9.Location = new System.Drawing.Point(169, 17);
+            this.siticoneOSToggleSwith9.Name = "siticoneOSToggleSwith9";
+            this.siticoneOSToggleSwith9.Size = new System.Drawing.Size(40, 19);
+            this.siticoneOSToggleSwith9.TabIndex = 1;
+            this.siticoneOSToggleSwith9.Text = "siticoneOSToggleSwith9";
+            this.siticoneOSToggleSwith9.UncheckedFillColor = System.Drawing.Color.Red;
+            this.siticoneOSToggleSwith9.CheckedChanged += new System.EventHandler(this.siticoneOSToggleSwith9_CheckedChanged);
             // 
             // linkLabel4
             // 
             this.linkLabel4.AutoSize = true;
             this.linkLabel4.LinkColor = System.Drawing.Color.Aqua;
-            this.linkLabel4.Location = new System.Drawing.Point(299, 48);
+            this.linkLabel4.Location = new System.Drawing.Point(305, 164);
             this.linkLabel4.Name = "linkLabel4";
             this.linkLabel4.Size = new System.Drawing.Size(69, 13);
             this.linkLabel4.TabIndex = 20;
@@ -461,7 +523,7 @@ namespace NeuronWebdriver
             this.siticoneLabel17.BackColor = System.Drawing.Color.Transparent;
             this.siticoneLabel17.Font = new System.Drawing.Font("Bahnschrift Light SemiCondensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneLabel17.ForeColor = System.Drawing.Color.White;
-            this.siticoneLabel17.Location = new System.Drawing.Point(21, 11);
+            this.siticoneLabel17.Location = new System.Drawing.Point(18, 121);
             this.siticoneLabel17.Name = "siticoneLabel17";
             this.siticoneLabel17.Size = new System.Drawing.Size(132, 21);
             this.siticoneLabel17.TabIndex = 12;
@@ -475,43 +537,24 @@ namespace NeuronWebdriver
             this.siticoneRoundedButton4.BorderThickness = 1;
             this.siticoneRoundedButton4.CheckedState.Parent = this.siticoneRoundedButton4;
             this.siticoneRoundedButton4.CustomImages.Parent = this.siticoneRoundedButton4;
-            this.siticoneRoundedButton4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
+            this.siticoneRoundedButton4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.siticoneRoundedButton4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.siticoneRoundedButton4.ForeColor = System.Drawing.Color.White;
             this.siticoneRoundedButton4.HoveredState.Parent = this.siticoneRoundedButton4;
-            this.siticoneRoundedButton4.Location = new System.Drawing.Point(15, 193);
+            this.siticoneRoundedButton4.Location = new System.Drawing.Point(21, 223);
             this.siticoneRoundedButton4.Name = "siticoneRoundedButton4";
             this.siticoneRoundedButton4.ShadowDecoration.Parent = this.siticoneRoundedButton4;
-            this.siticoneRoundedButton4.Size = new System.Drawing.Size(360, 36);
+            this.siticoneRoundedButton4.Size = new System.Drawing.Size(354, 36);
             this.siticoneRoundedButton4.TabIndex = 19;
-            this.siticoneRoundedButton4.Text = "View History";
+            this.siticoneRoundedButton4.Text = "View History File (Save)";
             this.siticoneRoundedButton4.Click += new System.EventHandler(this.siticoneRoundedButton4_Click);
-            // 
-            // siticoneLabel15
-            // 
-            this.siticoneLabel15.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneLabel15.Font = new System.Drawing.Font("Bahnschrift Light SemiCondensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneLabel15.ForeColor = System.Drawing.Color.White;
-            this.siticoneLabel15.Location = new System.Drawing.Point(214, 9);
-            this.siticoneLabel15.Name = "siticoneLabel15";
-            this.siticoneLabel15.Size = new System.Drawing.Size(146, 21);
-            this.siticoneLabel15.TabIndex = 6;
-            this.siticoneLabel15.Text = "Save Browsing History";
-            // 
-            // siticoneOSToggleSwith9
-            // 
-            this.siticoneOSToggleSwith9.CheckedFillColor = System.Drawing.Color.Lime;
-            this.siticoneOSToggleSwith9.Location = new System.Drawing.Point(365, 11);
-            this.siticoneOSToggleSwith9.Name = "siticoneOSToggleSwith9";
-            this.siticoneOSToggleSwith9.Size = new System.Drawing.Size(40, 19);
-            this.siticoneOSToggleSwith9.TabIndex = 1;
-            this.siticoneOSToggleSwith9.Text = "siticoneOSToggleSwith9";
-            this.siticoneOSToggleSwith9.UncheckedFillColor = System.Drawing.Color.Red;
-            this.siticoneOSToggleSwith9.CheckedChanged += new System.EventHandler(this.siticoneOSToggleSwith9_CheckedChanged);
             // 
             // siticonePanel8
             // 
             this.siticonePanel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.siticonePanel8.BorderColor = System.Drawing.Color.Black;
+            this.siticonePanel8.BorderThickness = 2;
+            this.siticonePanel8.Controls.Add(this.siticoneLabel16);
             this.siticonePanel8.Controls.Add(this.siticoneLabel13);
             this.siticonePanel8.Controls.Add(this.siticonePanel7);
             this.siticonePanel8.Controls.Add(this.siticonePanel2);
@@ -519,22 +562,33 @@ namespace NeuronWebdriver
             this.siticonePanel8.Controls.Add(this.siticonePanel3);
             this.siticonePanel8.Controls.Add(this.siticonePanel5);
             this.siticonePanel8.Controls.Add(this.siticonePanel4);
-            this.siticonePanel8.Location = new System.Drawing.Point(10, 11);
+            this.siticonePanel8.Location = new System.Drawing.Point(19, 19);
             this.siticonePanel8.Name = "siticonePanel8";
             this.siticonePanel8.ShadowDecoration.Parent = this.siticonePanel8;
-            this.siticonePanel8.Size = new System.Drawing.Size(574, 290);
+            this.siticonePanel8.Size = new System.Drawing.Size(574, 322);
             this.siticonePanel8.TabIndex = 17;
+            // 
+            // siticoneLabel16
+            // 
+            this.siticoneLabel16.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneLabel16.Font = new System.Drawing.Font("Bahnschrift Light SemiCondensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneLabel16.ForeColor = System.Drawing.Color.White;
+            this.siticoneLabel16.Location = new System.Drawing.Point(61, 289);
+            this.siticoneLabel16.Name = "siticoneLabel16";
+            this.siticoneLabel16.Size = new System.Drawing.Size(447, 21);
+            this.siticoneLabel16.TabIndex = 12;
+            this.siticoneLabel16.Text = "Custom DuckDuckGo is only used when searching via the address bar.";
             // 
             // siticoneLabel13
             // 
             this.siticoneLabel13.BackColor = System.Drawing.Color.Transparent;
             this.siticoneLabel13.Font = new System.Drawing.Font("Bahnschrift SemiLight SemiConde", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneLabel13.ForeColor = System.Drawing.Color.White;
-            this.siticoneLabel13.Location = new System.Drawing.Point(6, 5);
+            this.siticoneLabel13.Location = new System.Drawing.Point(16, 6);
             this.siticoneLabel13.Name = "siticoneLabel13";
-            this.siticoneLabel13.Size = new System.Drawing.Size(175, 27);
+            this.siticoneLabel13.Size = new System.Drawing.Size(132, 27);
             this.siticoneLabel13.TabIndex = 12;
-            this.siticoneLabel13.Text = "DuckDuckGo Options:";
+            this.siticoneLabel13.Text = "Search Options:";
             // 
             // siticonePanel7
             // 
@@ -618,10 +672,10 @@ namespace NeuronWebdriver
             this.linkLabel3.LinkColor = System.Drawing.Color.Aqua;
             this.linkLabel3.Location = new System.Drawing.Point(293, 121);
             this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(69, 13);
+            this.linkLabel3.Size = new System.Drawing.Size(52, 13);
             this.linkLabel3.TabIndex = 11;
             this.linkLabel3.TabStop = true;
-            this.linkLabel3.Text = "What\'s This?";
+            this.linkLabel3.Text = "More Info";
             this.linkLabel3.VisitedLinkColor = System.Drawing.Color.Fuchsia;
             this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
             // 
@@ -736,10 +790,10 @@ namespace NeuronWebdriver
             this.linkLabel2.LinkColor = System.Drawing.Color.Aqua;
             this.linkLabel2.Location = new System.Drawing.Point(293, 45);
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(69, 13);
+            this.linkLabel2.Size = new System.Drawing.Size(52, 13);
             this.linkLabel2.TabIndex = 8;
             this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "What\'s This?";
+            this.linkLabel2.Text = "More Info";
             this.linkLabel2.VisitedLinkColor = System.Drawing.Color.Fuchsia;
             this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
@@ -883,7 +937,7 @@ namespace NeuronWebdriver
             this.siticoneRoundedButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.siticoneRoundedButton1.ForeColor = System.Drawing.Color.White;
             this.siticoneRoundedButton1.HoveredState.Parent = this.siticoneRoundedButton1;
-            this.siticoneRoundedButton1.Location = new System.Drawing.Point(10, 465);
+            this.siticoneRoundedButton1.Location = new System.Drawing.Point(13, 469);
             this.siticoneRoundedButton1.Name = "siticoneRoundedButton1";
             this.siticoneRoundedButton1.ShadowDecoration.Parent = this.siticoneRoundedButton1;
             this.siticoneRoundedButton1.Size = new System.Drawing.Size(112, 32);
@@ -903,7 +957,7 @@ namespace NeuronWebdriver
             this.siticoneRoundedButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.siticoneRoundedButton2.ForeColor = System.Drawing.Color.White;
             this.siticoneRoundedButton2.HoveredState.Parent = this.siticoneRoundedButton2;
-            this.siticoneRoundedButton2.Location = new System.Drawing.Point(1055, 476);
+            this.siticoneRoundedButton2.Location = new System.Drawing.Point(955, 471);
             this.siticoneRoundedButton2.Name = "siticoneRoundedButton2";
             this.siticoneRoundedButton2.ShadowDecoration.Parent = this.siticoneRoundedButton2;
             this.siticoneRoundedButton2.Size = new System.Drawing.Size(110, 30);
@@ -913,6 +967,8 @@ namespace NeuronWebdriver
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.pictureBox6);
+            this.tabPage4.Controls.Add(this.siticoneRoundedButton7);
             this.tabPage4.Controls.Add(this.siticoneLabel2);
             this.tabPage4.Controls.Add(this.siticoneRoundedButton3);
             this.tabPage4.Controls.Add(this.siticoneLabel4);
@@ -921,17 +977,50 @@ namespace NeuronWebdriver
             this.tabPage4.Controls.Add(this.pictureBox3);
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(1256, 522);
+            this.tabPage4.Size = new System.Drawing.Size(1171, 524);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "tabPage4";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox6.BackColor = System.Drawing.Color.Black;
+            this.pictureBox6.BackgroundImage = global::NeuronWebdriver.Properties.Resources.AlphaWhiteIcon;
+            this.pictureBox6.Image = global::NeuronWebdriver.Properties.Resources.AlphaWhiteIcon;
+            this.pictureBox6.Location = new System.Drawing.Point(1095, 14);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(59, 56);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 20;
+            this.pictureBox6.TabStop = false;
+            // 
+            // siticoneRoundedButton7
+            // 
+            this.siticoneRoundedButton7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.siticoneRoundedButton7.BackColor = System.Drawing.Color.Black;
+            this.siticoneRoundedButton7.BorderColor = System.Drawing.Color.DimGray;
+            this.siticoneRoundedButton7.BorderThickness = 1;
+            this.siticoneRoundedButton7.CheckedState.Parent = this.siticoneRoundedButton7;
+            this.siticoneRoundedButton7.CustomImages.Parent = this.siticoneRoundedButton7;
+            this.siticoneRoundedButton7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
+            this.siticoneRoundedButton7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.siticoneRoundedButton7.ForeColor = System.Drawing.Color.White;
+            this.siticoneRoundedButton7.HoveredState.Parent = this.siticoneRoundedButton7;
+            this.siticoneRoundedButton7.Location = new System.Drawing.Point(1044, 477);
+            this.siticoneRoundedButton7.Name = "siticoneRoundedButton7";
+            this.siticoneRoundedButton7.ShadowDecoration.Parent = this.siticoneRoundedButton7;
+            this.siticoneRoundedButton7.Size = new System.Drawing.Size(110, 30);
+            this.siticoneRoundedButton7.TabIndex = 3;
+            this.siticoneRoundedButton7.Text = "Back";
+            this.siticoneRoundedButton7.Click += new System.EventHandler(this.siticoneRoundedButton7_Click);
             // 
             // siticoneLabel2
             // 
             this.siticoneLabel2.BackColor = System.Drawing.Color.Black;
             this.siticoneLabel2.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneLabel2.ForeColor = System.Drawing.Color.White;
-            this.siticoneLabel2.Location = new System.Drawing.Point(14, 14);
+            this.siticoneLabel2.Location = new System.Drawing.Point(17, 14);
             this.siticoneLabel2.Name = "siticoneLabel2";
             this.siticoneLabel2.Size = new System.Drawing.Size(181, 27);
             this.siticoneLabel2.TabIndex = 5;
@@ -949,7 +1038,7 @@ namespace NeuronWebdriver
             this.siticoneRoundedButton3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.siticoneRoundedButton3.ForeColor = System.Drawing.Color.White;
             this.siticoneRoundedButton3.HoveredState.Parent = this.siticoneRoundedButton3;
-            this.siticoneRoundedButton3.Location = new System.Drawing.Point(1139, 449);
+            this.siticoneRoundedButton3.Location = new System.Drawing.Point(1233, 451);
             this.siticoneRoundedButton3.Name = "siticoneRoundedButton3";
             this.siticoneRoundedButton3.ShadowDecoration.Parent = this.siticoneRoundedButton3;
             this.siticoneRoundedButton3.Size = new System.Drawing.Size(100, 24);
@@ -963,7 +1052,7 @@ namespace NeuronWebdriver
             this.siticoneLabel4.BackColor = System.Drawing.Color.Black;
             this.siticoneLabel4.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneLabel4.ForeColor = System.Drawing.Color.White;
-            this.siticoneLabel4.Location = new System.Drawing.Point(14, 449);
+            this.siticoneLabel4.Location = new System.Drawing.Point(17, 447);
             this.siticoneLabel4.Name = "siticoneLabel4";
             this.siticoneLabel4.Size = new System.Drawing.Size(191, 27);
             this.siticoneLabel4.TabIndex = 3;
@@ -975,7 +1064,7 @@ namespace NeuronWebdriver
             this.siticoneLabel3.BackColor = System.Drawing.Color.Black;
             this.siticoneLabel3.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneLabel3.ForeColor = System.Drawing.Color.White;
-            this.siticoneLabel3.Location = new System.Drawing.Point(14, 482);
+            this.siticoneLabel3.Location = new System.Drawing.Point(17, 480);
             this.siticoneLabel3.Name = "siticoneLabel3";
             this.siticoneLabel3.Size = new System.Drawing.Size(200, 27);
             this.siticoneLabel3.TabIndex = 2;
@@ -987,7 +1076,7 @@ namespace NeuronWebdriver
             this.siticoneLabel1.BackColor = System.Drawing.Color.Black;
             this.siticoneLabel1.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneLabel1.ForeColor = System.Drawing.Color.White;
-            this.siticoneLabel1.Location = new System.Drawing.Point(1139, 479);
+            this.siticoneLabel1.Location = new System.Drawing.Point(1233, 481);
             this.siticoneLabel1.Name = "siticoneLabel1";
             this.siticoneLabel1.Size = new System.Drawing.Size(100, 27);
             this.siticoneLabel1.TabIndex = 1;
@@ -1000,7 +1089,7 @@ namespace NeuronWebdriver
             this.pictureBox3.Image = global::NeuronWebdriver.Properties.Resources.NRW_BannerGS;
             this.pictureBox3.Location = new System.Drawing.Point(0, 0);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(1256, 522);
+            this.pictureBox3.Size = new System.Drawing.Size(1171, 524);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
@@ -1010,30 +1099,29 @@ namespace NeuronWebdriver
             this.Timer.Enabled = true;
             this.Timer.Tick += new System.EventHandler(this.Timer_Tick);
             // 
-            // pictureBox5
+            // linkLabel5
             // 
-            this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox5.BackColor = System.Drawing.Color.Black;
-            this.pictureBox5.Image = global::NeuronWebdriver.Properties.Resources.NRW_BannerGS;
-            this.pictureBox5.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(1256, 522);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 1;
-            this.pictureBox5.TabStop = false;
+            this.linkLabel5.AutoSize = true;
+            this.linkLabel5.LinkColor = System.Drawing.Color.Aqua;
+            this.linkLabel5.Location = new System.Drawing.Point(227, 129);
+            this.linkLabel5.Name = "linkLabel5";
+            this.linkLabel5.Size = new System.Drawing.Size(65, 13);
+            this.linkLabel5.TabIndex = 25;
+            this.linkLabel5.TabStop = true;
+            this.linkLabel5.Text = "Open Folder";
+            this.linkLabel5.VisitedLinkColor = System.Drawing.Color.Fuchsia;
+            this.linkLabel5.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel5_LinkClicked_1);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
-            this.ClientSize = new System.Drawing.Size(1246, 560);
+            this.ClientSize = new System.Drawing.Size(1161, 562);
             this.Controls.Add(this.siticoneGradientPanel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Neuron Webdriver 1.0";
+            this.Text = "Neuron Webdriver";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.siticoneGradientPanel1.ResumeLayout(false);
             this.TopGradientPanel.ResumeLayout(false);
@@ -1043,6 +1131,7 @@ namespace NeuronWebdriver
             ((System.ComponentModel.ISupportInitialize)(this.MenuButton)).EndInit();
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
@@ -1069,8 +1158,8 @@ namespace NeuronWebdriver
             this.siticonePanel4.PerformLayout();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1081,13 +1170,6 @@ namespace NeuronWebdriver
         private System.Windows.Forms.PictureBox pictureBox2;
         private Siticone.UI.WinForms.SiticoneGradientPanel siticoneGradientPanel1;
         private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.Label ErrorURLBox;
-        private System.Windows.Forms.Label ErrorCodeBox;
-        private System.Windows.Forms.Label ErrorTitle;
-        private System.Windows.Forms.Label ErrorHandlerLabel;
-        private System.Windows.Forms.TabPage tabPage1;
-        private CefSharp.WinForms.ChromiumWebBrowser NBrowser;
         private Siticone.UI.WinForms.SiticoneGradientPanel TopGradientPanel;
         private System.Windows.Forms.PictureBox MenuButton;
         private System.Windows.Forms.TabPage tabPage3;
@@ -1141,7 +1223,19 @@ namespace NeuronWebdriver
         private Siticone.UI.WinForms.SiticoneRoundedButton siticoneRoundedButton4;
         private Siticone.UI.WinForms.SiticoneRoundedButton siticoneRoundedButton5;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private Siticone.UI.WinForms.SiticoneRoundedButton siticoneRoundedButton6;
+        private System.Windows.Forms.TabPage tabPage1;
+        private CefSharp.WinForms.ChromiumWebBrowser NBrowser;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.Label ErrorURLBox;
+        private System.Windows.Forms.Label ErrorCodeBox;
+        private System.Windows.Forms.Label ErrorTitle;
+        private System.Windows.Forms.Label ErrorHandlerLabel;
+        private Siticone.UI.WinForms.SiticoneLabel siticoneLabel16;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private Siticone.UI.WinForms.SiticoneRoundedButton siticoneRoundedButton7;
+        private System.Windows.Forms.LinkLabel linkLabel5;
     }
 }
 

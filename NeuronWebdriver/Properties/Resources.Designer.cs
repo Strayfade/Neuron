@@ -73,6 +73,16 @@ namespace NeuronWebdriver.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap AlphaWhiteIcon {
+            get {
+                object obj = ResourceManager.GetObject("AlphaWhiteIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bac {
             get {
                 object obj = ResourceManager.GetObject("bac", resourceCulture);
